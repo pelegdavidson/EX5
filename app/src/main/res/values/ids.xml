@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="ll1Id" type="id"/>
+    <item name="ll2Id" type="id"/>
+    <item name="tvIntro2" type="id"/>
+    <item name="checkBox1" type="id"/>
+    <item name="checkbox2" type="id"/>
 </resources>

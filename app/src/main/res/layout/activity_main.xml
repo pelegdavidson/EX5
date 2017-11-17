@@ -12,4 +12,30 @@
         android:text="@string/intro"
         android:id="@+id/tvIntro"/>
 
+    <ToggleButton
+        android:id="@+id/tg"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:textOff="@string/tg"
+        android:textOn="@string/tg"
+        android:onClick="enterLayout"/>
+
+    <FrameLayout
+        android:id="@+id/f1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/tg"
+        android:background="@drawable/roundcolorborders"
+
+        >
+
+    </FrameLayout>
+
 </RelativeLayout>
